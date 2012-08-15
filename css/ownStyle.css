@@ -10,7 +10,8 @@
 body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
-    
+    size: 300% !important;
+	
     background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
@@ -27,7 +28,7 @@ b, strong { font-weight: bold }
 i, em { font-style: italic }
 
 .small { font-size: 70% }
-.huge { font-size: 300% }
+.huge { font-size: 600% }
 
 /*
     Because the main point behind the impress.js demo is to demo impress.js
@@ -86,8 +87,3 @@ i, em { font-style: italic }
 
 }
 
-.present {
-	background-color: rgb(238,238,238);
-	border-radius: 100px;
-	-moz-border-radius: 100px;
-}
