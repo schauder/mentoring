@@ -18,7 +18,7 @@ i, em { font-style: italic }
 
 .small { font-size: 70% }
 .huge { font-size: 150% }
-
+.gigantic { font-size: 1000% }
 /*
     Because the main point behind the impress.js demo is to demo impress.js
     we display a fallback message for users with browsers that don't support
