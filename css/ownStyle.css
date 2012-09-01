@@ -28,7 +28,7 @@ b, strong { font-weight: bold }
 i, em { font-style: italic }
 
 .small { font-size: 70% }
-.huge { font-size: 600% }
+.huge { font-size: 150% }
 
 /*
     Because the main point behind the impress.js demo is to demo impress.js
@@ -63,11 +63,14 @@ i, em { font-style: italic }
     display: none;
 }
 
-/*
-    Now let's style the presentation steps.
-    
-    We start with basics to make sure it displays correctly in everywhere ...
-*/
+li {
+list-style-type:disc;
+color:#9b243e;
+}
+
+li span {
+color:black;
+} 
 
 .step {
     position: relative;
